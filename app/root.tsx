@@ -8,6 +8,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import styles from "./tailwind.css";
+import { Toaster } from "react-hot-toast";
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "New Remix App",
